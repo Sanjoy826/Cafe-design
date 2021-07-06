@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background-color: grey;
+}
+/****#slider{
+	overflow: hidden;
+}
+#slider figure img{
+	float: left;
+	width: 10%;
+}
+#slider figure{
+	position: relative;
+	width: 500%;
+	animation: slide 10s infinite;
+}*****/
+#slider figure{
+	position: center;
+	padding-left: 500px;
+}
+h1{
+	font-size: 300%;
+	text-align: center;
+	font-style: "Times"
+}
+.colorchange{
+	animation: colorchangegetWELCOME 1s infinite;
+}
+@keyframes colorchangegetWELCOME{
+		0%{color: red;}
+		25%{color: purple;}
+		50%{color: orange;}
+		75%{color: violet;}
+		100%{color: white;}
+    }
+p{
+	font-size: 28px;
+	font-style: italic;
+}

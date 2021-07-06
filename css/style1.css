@@ -1,0 +1,26 @@
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/cafe3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	color: white;
+}
+p label{
+      font-size: 35px;	
+      font-style: italic;
+}
+#contact #form{
+	width: 500px;
+    padding: 10px 10px 10px 10px
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-left: 10%;
+
+}
+h1{
+	height: 30px;
+    width: 100px;
+    background: orange;
+    cursor: pointer;
+} 
